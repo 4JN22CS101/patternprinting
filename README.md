@@ -158,3 +158,5 @@ class Main {
          
     }
 }
+
+pattern 6
