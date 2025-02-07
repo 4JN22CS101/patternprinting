@@ -129,3 +129,32 @@ class Main {
         }
     }
 }
+
+Pattern 5
+Try programiz.pro
+4
+   *
+  ***
+ *****
+*******
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        Scanner sc = new Scanner(System.in);
+        int r = sc.nextInt();
+        for(int i=1;i<=r;i++){
+            for(int j=1;j<=(r-i);j++){
+                System.out.print(" ");
+            }
+            for(int k=1;k <= (2*i-1);k++){
+            System.out.print("*");
+        }
+        System.out.println();
+        }
+         
+    }
+}
