@@ -8,7 +8,7 @@ class Main {
     public static void main(String[] args) {
         System.out.println("Try programiz.pro");
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number of rows and columns");
+        System.out.println("Enter the  number of rows and columns");
         int r = sc.nextInt();
         int c = sc.nextInt();
         for(int i=r;i>=1;i--){
